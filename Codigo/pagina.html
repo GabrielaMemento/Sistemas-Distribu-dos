@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar</title>
+</head>
+<body>
+    <div>
+        <h1>Finalizar Compra de Ingresso</h1>
+        
+    </div>
+    
+    <form>
+        <fieldset>
+            <p> Informe seus dados</p>
 
+            <div>
+                <label>Nome</label>
+                <input type="text" nome="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" nome="email" id="email">
+            </div>
+
+            <div>
+                <label>Data de Nascimento </label>
+                <input type="date" nome="data" id="data">
+            </div>
+
+            <div>
+                <label>CPF </label>
+                <input type="text" nome="cpf" id="cpf">
+            </div>
+
+            <fieldset>
+                <p> Pagamento</p>
+
+                <label>Selecione a forma de pagamento</label><br>
+                <input type="checkbox" id="pagamento1" nome="pagamento1" value="pix">
+                <label for="pagamento1">Pix</label>
+
+                <input type="checkbox" id="pagamento2" nome="pagamento2" value="cartaoDebito">
+                <label for="pagamento2">Cartao de Debito</label>
+
+                <input type="checkbox" id="pagamento3" nome="pagamento3" value="cartaoCredito">
+                <label for="pagamento3">Cartao de Cartao de Credito</label>
+
+                <input type="checkbox" id="pagamento4" nome="pagamento4" value="boleto">
+                <label for="pagamento4">Boleto</label>
+            </fieldset>
+
+            <button type="submit">Concluir</button>
+
+       
+        </fieldset>
+
+
+        
+    </form>
+    
+</body>
+</html>
