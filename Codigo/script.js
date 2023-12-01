@@ -5,7 +5,7 @@ new Vue({
     email: '',
     dataNascimento: '',
     cpf: '',
-    formaPagamento: 'pix'
+    formaPagamento: ''
   },
   methods: {
     validarFormulario() {
@@ -13,7 +13,8 @@ new Vue({
         this.nome === '' ||
         this.email === '' ||
         this.dataNascimento === '' ||
-        this.cpf === ''
+        this.cpf === '' ||
+        this.formaPagamento === ''
       ) {
         alert('Por favor, preencha todos os campos.');
       } else {
@@ -30,3 +31,4 @@ new Vue({
     }
   }
 });
+
