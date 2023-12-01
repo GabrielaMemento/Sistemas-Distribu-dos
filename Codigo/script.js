@@ -1,28 +1,32 @@
-// script.js
 new Vue({
-    el: '#app',
-    data: {
-      nome: '',
-      email: '',
-      dataNascimento: '',
-      cpf: '',
-      formaPagamento: 'pix'
-    },
-    methods: {
-      validarFormulario() {
-        if (
-          this.nome === '' ||
-          this.email === '' ||
-          this.dataNascimento === '' ||
-          this.cpf === ''
-        ) {
-          alert('Por favor, preencha todos os campos.');
-        } else {
-          // Se os campos estiverem preenchidos, o formulário pode ser enviado
-          // Aqui você pode adicionar lógica adicional para enviar o formulário
-          console.log('Formulário submetido!', this.nome, this.email, this.data, this.cpf, this.selectedPayments);
-        }
+  el: '#app',
+  data: {
+    nome: '',
+    email: '',
+    dataNascimento: '',
+    cpf: '',
+    formaPagamento: 'pix'
+  },
+  methods: {
+    validarFormulario() {
+      if (
+        this.nome === '' ||
+        this.email === '' ||
+        this.dataNascimento === '' ||
+        this.cpf === ''
+      ) {
+        alert('Por favor, preencha todos os campos.');
+      } else {
+        
+        var url = `confirmacao.html?nome=${this.nome}&email=${this.email}&dataNascimento=${this.dataNascimento}&cpf=${this.cpf}&formaPagamento=${this.formaPagamento}`;
+
+       
+          // Redirecionamento para outra página após a submissão do formulário
+          window.location.href = url //  URL da página
+
+        
+        console.log('Formulário submetido!', this.nome, this.email, this.data, this.cpf, this.selectedPayments);
       }
     }
-  });
-  
+  }
+});
