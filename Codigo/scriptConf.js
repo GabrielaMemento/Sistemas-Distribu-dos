@@ -19,9 +19,9 @@ new Vue({
       this.cpf = urlParams.get('cpf');
       this.formaPagamento = urlParams.get('formaPagamento');
   
-      // Exibir os dados na página de confirmação
+      
       console.log(this.nome, this.email, this.dataNascimento, this.cpf, this.formaPagamento);
-      // Faça o que for necessário com os dados na página de confirmação
+     
     }
   });
   

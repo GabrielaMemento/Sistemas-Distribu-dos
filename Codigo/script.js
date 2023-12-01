@@ -23,10 +23,10 @@ new Vue({
 
        
           // Redirecionamento para outra página após a submissão do formulário
-          window.location.href = url //  URL da página
+          window.location.href = url 
 
         
-        console.log('Formulário submetido!', this.nome, this.email, this.data, this.cpf, this.selectedPayments);
+        //console.log('Formulário submetido!', this.nome, this.email, this.data, this.cpf, this.selectedPayments);
       }
     }
   }
