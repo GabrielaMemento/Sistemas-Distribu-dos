@@ -1,3 +1,4 @@
+// Script da Pagina.html 
 new Vue({
   el: '#app',
   data: {
@@ -18,7 +19,7 @@ new Vue({
       ) {
         alert('Por favor, preencha todos os campos.');
       } else {
-        
+        //passando os campos por url 
         var url = `confirmacao.html?nome=${this.nome}&email=${this.email}&dataNascimento=${this.dataNascimento}&cpf=${this.cpf}&formaPagamento=${this.formaPagamento}`;
 
        

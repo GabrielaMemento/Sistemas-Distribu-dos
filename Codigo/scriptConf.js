@@ -8,11 +8,11 @@ new Vue({
       formaPagamento: ''
     },
     created() {
-      // Extrair os parâmetros da URL
+      // Extraindo os parâmetros da URL
       var queryString = window.location.search;
       var urlParams = new URLSearchParams(queryString);
   
-      // Obter os valores dos parâmetros da URL
+      // Obtendo os valores dos parâmetros da URL
       this.nome = urlParams.get('nome');
       this.email = urlParams.get('email');
       this.dataNascimento = urlParams.get('dataNascimento');
