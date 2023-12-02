@@ -15,5 +15,7 @@ Consiste em uma aplicação web simples que simula o processo de compra de ingre
 - javascript
   
   ## Vue.js
+  Vue é um framework destinado à construção de interfaces de usuário. Esta estrutura se baseia nos elementos tradicionais da web, como HTML, CSS e JavaScript, e oferece um modelo de programação declarativo, centrado em componentes. Isso permite o desenvolvimento eficiente de interfaces de usuário, independentemente da sua complexidade, oferecendo uma maneira organizada.
+  
   ## Arquitetura Utilizada
 Este projeto apresenta uma aplicação frontend simples que coleta informações do usuário, valida o preenchimento dos campos e encaminha esses dados para outra página através da URL.
