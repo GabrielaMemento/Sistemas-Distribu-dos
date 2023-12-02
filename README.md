@@ -16,3 +16,4 @@ Consiste em uma aplicação web simples que simula o processo de compra de ingre
   
   ## Vue.js
   ## Arquitetura Utilizada
+Este projeto apresenta uma aplicação frontend simples que coleta informações do usuário, valida o preenchimento dos campos e encaminha esses dados para outra página através da URL.
