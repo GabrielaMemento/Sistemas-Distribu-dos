@@ -11,13 +11,13 @@ Consiste em uma aplicação web simples que simula o processo de compra de ingre
   A aplicação é desenvolvida utilizando HTML, CSS e Vue.js. O HTML é utilizado para estruturar as páginas. O CSS é utilizado para estilizar as páginas, garantindo uma experiência visualmente atraente e coerente em diferentes telas. O Vue.js é utilizado para criar a interatividade dinâmica do formulário, estabelecendo a lógica por trás da coleta e manipulação das informações inseridas pelo usuário.
 
 ## Tecnologias Utilizadas
--  Vue.js
+- Vue.js
 - HTML
 - CSS
-- javascript
+- Javascript
   
-  ## Vue.js
-  Vue é um framework destinado à construção de interfaces de usuário. Esta estrutura se baseia nos elementos tradicionais da web, como HTML, CSS e JavaScript, e oferece um modelo de programação declarativo, centrado em componentes. Isso permite o desenvolvimento eficiente de interfaces de usuário, independentemente da sua complexidade, oferecendo uma maneira organizada.
+## Vue.js
+Vue é um framework destinado à construção de interfaces de usuário. Esta estrutura se baseia nos elementos tradicionais da web, como HTML, CSS e JavaScript, e oferece um modelo de programação declarativo, centrado em componentes. Isso permite o desenvolvimento eficiente de interfaces de usuário, independentemente da sua complexidade, oferecendo uma maneira organizada.
   
-  ## Arquitetura Utilizada
-Este projeto apresenta uma aplicação frontend simples que coleta informações do usuário, valida o preenchimento dos campos e encaminha esses dados para outra página através da URL.
+## Arquitetura Utilizada
+Este projeto apresenta uma aplicação frontend simples que coleta informações do usuário, valida o preenchimento dos campos e encaminha esses dados para outra página através da URL. A arquitetura mais apropriada seria a cliente-servidor, em que o lado cliente da aplicação faz as requisições e o servidor retorna uma resposta. Como esse trabalho é apenas uma demonstração da parte do front-end, ou seja, do lado do cliente, não há uma conexão com um banco de dados, ficando somente o lado cliente da aplicação. Mas em um cenário real, teríamos os dois lados.
