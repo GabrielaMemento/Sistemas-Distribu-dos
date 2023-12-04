@@ -2,6 +2,8 @@
  
 ## Membros do grupo
 - Gabriela Silva Memento
+- Gustavo Viana Avelar Dutra
+- Lucas Carvalho Ferreira
 
 ## Descrição do projeto
   O projeto "Simulação de Compra de Ingressos: Formulário de Envio de Informações" é um trabalho para a disciplina de Sistemas Distribuídos. 
