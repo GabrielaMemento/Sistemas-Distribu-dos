@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário com Vue.js</title>
+
+  <!-- Importando o arquivo de estilos CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Scripts para utilizar o Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app">  <!-- indica que essa instância Vue será montada dentro do elemento com id="app" -->
+
+    <!-- Formulário -->
+    <form @submit.prevent="submitForm">  <!-- quando o formulário for submetido o Vue.js deve chamar o método submitForm do app.js-->
+      
+      <label for="message">Mensagem:</label>
+      <input type="text" id="message" v-model="userInput" placeholder="Digite algo...">
+     
+      <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Exibição da mensagem digitada -->
+    <p v-if="submitted">Você digitou: {{ userInput }}</p> <!-- Verifica se o submitForm é verdadeiro para imprimir a mensagem-->
+  </div>
+
+
+</body>
+</html>
