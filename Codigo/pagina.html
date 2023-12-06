@@ -9,7 +9,6 @@
     <script
       src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" defer></script>
     <script src="script.js" defer></script>
-    <script src="script.js" defer></script>
     
   </head>
   <body>
@@ -46,6 +45,7 @@
             <label for="pagamento">Forma de Pagamento</label>
 
             <select id="pagamento" name="pagamento" v-model="formaPagamento">
+              <option value=" "></option>
               <option value="pix">Pix</option>
               <option value="boleto">Boleto</option>
               <option value="cartao">Cartão</option>
