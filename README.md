@@ -34,12 +34,12 @@ Há duas maneiras de rodar esse projeto
  ## Tutorial de vue.js 
  Passos para criar um formulário simples utilizando o Vue.js 
 
-1- Fazer um formulário simples em HTML;
-2- Adicionar uma <div> com a tag com id=”app” ;
-3- Dizer ao navegador como lidar com o código Vue adicionando um script com um link do vue e um para a página javaScript;
-4-  Criar a página javaScript com as instâncias do Vue;  
-5- Criar uma instância Vue, conecte ela ao formulário através do id ;
-6- Definir os dados que serão utilizados pela instância;
-7- Definir  os métodos que podem ser chamados pela instância;
+1- Fazer um formulário simples em HTML;<br />
+2- Adicionar uma <div> com a tag com id=”app” ;<br />
+3- Dizer ao navegador como lidar com o código Vue adicionando um script com um link do vue e um para a página javaScript;<br />
+4-  Criar a página javaScript com as instâncias do Vue;<br />
+5- Criar uma instância Vue, conecte ela ao formulário através do id;<br />
+6- Definir os dados que serão utilizados pela instância;<br />
+7- Definir  os métodos que podem ser chamados pela instância;<br />
 
 
