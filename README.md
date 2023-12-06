@@ -18,7 +18,7 @@ Consiste em uma aplicação web simples que simula o processo de compra de ingre
   
 ## Vue.js
 Vue é um framework destinado à construção de interfaces de usuário. Esta estrutura se baseia nos elementos tradicionais da web, como HTML, CSS e JavaScript, e oferece um modelo de programação declarativo, centrado em componentes. Isso permite o desenvolvimento eficiente de interfaces de usuário, independentemente da sua complexidade, oferecendo uma maneira organizada, sendo muito utilizado para criar aplicações de página única (single page) e também para desenvolver vários tipos de interfaces, que necessitam de maior interação e experiência mais valorosa para o usuário.
-El é construído em torno do conceito de componentes reutilizáveis. Significa que podemos criar um componente (como o formulário, por exemplo) e reutilizá-lo em várias partes do sistema.
+Ele é construído em torno do conceito de componentes reutilizáveis. Significa que podemos criar um componente (como o formulário, por exemplo) e reutilizá-lo em várias partes do sistema.
 
   
 ## Arquitetura Utilizada
