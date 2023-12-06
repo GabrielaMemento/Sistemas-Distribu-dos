@@ -30,3 +30,16 @@ Há duas maneiras de rodar esse projeto
  Clone em sua máquina com o comando git clone + a url do repositório GitHub. Com isso, o projeto estará na sua máquina local, após isso, rode um npm install para instalar os pacotes do node e rode o comando npm run dev, será gerado um link que vai te direcionar para um navegador com a aplicação.
 2 - VsCode + extensões
  Clone em sua máquina com o comando git clone + a url do repositório GitHub, se estiver usando o VsCode, instale a extensão Live Server. Após isso, aparecerá no canto inferior direito um botão "Go Live" que clicando nele você é direcionado ao navegador com a aplicação.
+
+ ## Tutorial de vue.js 
+ Passos para criar um formulário simples utilizando o Vue.js 
+
+1- Fazer um formulário simples em HTML;
+2- Adicionar uma <div> com a tag com id=”app” ;
+3- Dizer ao navegador como lidar com o código Vue adicionando um script com um link do vue e um para a página javaScript;
+4-  Criar a página javaScript com as instâncias do Vue;  
+5- Criar uma instância Vue, conecte ela ao formulário através do id ;
+6- Definir os dados que serão utilizados pela instância;
+7- Definir  os métodos que podem ser chamados pela instância;
+
+
