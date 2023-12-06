@@ -23,3 +23,10 @@ El é construído em torno do conceito de componentes reutilizáveis. Significa 
   
 ## Arquitetura Utilizada
 Este projeto apresenta uma aplicação frontend simples que coleta informações do usuário, valida o preenchimento dos campos e encaminha esses dados para outra página através da URL. A arquitetura mais apropriada seria a cliente-servidor, em que o lado cliente da aplicação faz as requisições e o servidor retorna uma resposta. Como esse trabalho é apenas uma demonstração da parte do front-end, ou seja, do lado do cliente, não há uma conexão com um banco de dados, ficando somente o lado cliente da aplicação. Mas em um cenário real, teríamos os dois lados.
+
+## Como Rodar Esse Projeto
+Há duas maneiras de rodar esse projeto
+1 - NPM 
+ Clone em sua máquina com o comando git clone + a url do repositório GitHub. Com isso, o projeto estará na sua máquina local, após isso, rode um npm install para instalar os pacotes do node e rode o comando npm run dev, será gerado um link que vai te direcionar para um navegador com a aplicação.
+2 - VsCode + extensões
+ Clone em sua máquina com o comando git clone + a url do repositório GitHub, se estiver usando o VsCode, instale a extensão Live Server. Após isso, aparecerá no canto inferior direito um botão "Go Live" que clicando nele você é direcionado ao navegador com a aplicação.
