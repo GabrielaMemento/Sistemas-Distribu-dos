@@ -18,8 +18,6 @@ new Vue({
         this.formaPagamento === ''
       ) {
         alert('Por favor, preencha todos os campos.');
-      } else if (!this.validarEmail(this.email)) {
-        alert('Por favor, insira um endereço de e-mail válido.');
       } else if (!this.validarCPF(this.cpf)) {
         alert('Por favor, insira um CPF válido.');
       } else {
@@ -33,13 +31,6 @@ new Vue({
         
         //console.log('Formulário submetido!', this.nome, this.email, this.data, this.cpf, this.selectedPayments);
       }
-    },
-    validarEmail(email) {
-      // Expressão regular para validar um endereço de e-mail
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-      // Verifica se o e-mail atende à expressão regular
-      return emailRegex.test(email);
     },
     validarCPF(cpf) {
       // Expressão regular para validar CPF
